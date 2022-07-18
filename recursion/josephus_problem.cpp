@@ -1,3 +1,6 @@
+// recursive implementation josephus problem
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -9,5 +12,6 @@ int jos(int n, int k)
 }
 int main()
 {
-	cout<<jos(5,3);
+	cout<<jos(5,3)<<endl;
+	cout<<jos(7,3);
 }
