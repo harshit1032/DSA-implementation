@@ -1,7 +1,7 @@
  // This program uses recursion and backtracking to generate all possible subsets of a given array
 
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std;   
 
 void printarr(vector<int> &ds)
 {
