@@ -1,11 +1,11 @@
-
+// 	This problem solves a tower of hanoi puzzle 
 
 #include<bits/stdc++.h>
 using namespace std;
 
 void toh(int n,char A,char C,char B) // from A to C using B 
 {
-	if(n==1)
+	if(n==1) // base case is when n = 1 in this case we simply move 1st disc from A to C
 	{
 		cout<<"Move "<<n<<" from "<<A<<" to "<<C<<endl;
 		return;
