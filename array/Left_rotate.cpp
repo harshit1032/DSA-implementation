@@ -1,5 +1,6 @@
 // This code rotates a given array by d places.  
 // For example if the given array is {1,2,3,4,5} and d is 2 then the output is {3,4,5,1,2}
+// The approach we use is we first reverse the array till d places and then we reverse it from index d to n-1 and finally reverse the whole array and we will get the desired result.
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -11,6 +12,7 @@ void printarray(int arr[],int n)
         cout<<arr[i]<<endl;
     }
 }
+
 void rev(int arr[], int a, int d)
 {
     for(int i=a,j=d;i<j;i++,j--)
